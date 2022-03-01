@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/nav_home"
+        android:title="@string/首页"/>
+    <item
+        android:icon="@drawable/nav_collection"
+        android:id="@+id/navCollection"
+        android:title="@string/收藏"/>
+    <item
+        android:icon="@drawable/nav_download"
+        android:id="@+id/navDownload"
+        android:title="@string/下载"/>
+    <item
+        android:icon="@drawable/nav_history"
+        android:id="@+id/navHistory"
+        android:title="@string/阅读历史"/>
+    <item
+        android:icon="@drawable/nav_settings"
+        android:id="@+id/navSettings"
+        android:title="@string/我的"/>
+</menu>

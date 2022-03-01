@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_download.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\fragment_download.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_history.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_book_recycler_view.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\item_book_recycler_view.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_search.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_reader.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_reader.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_detail.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_collection.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\fragment_collection.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_change_password.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "E:\\study\\BookReader2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_base.xml",
+        "source": "E:\\study\\BookReader2\\app\\src\\main\\res\\layout\\activity_base.xml"
+    }
+]

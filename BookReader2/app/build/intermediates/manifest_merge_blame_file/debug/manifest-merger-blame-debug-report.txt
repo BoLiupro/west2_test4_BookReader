@@ -1,0 +1,314 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bookreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\study\BookReader2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\study\BookReader2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:6:5-80
+12-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:12:5-81
+13-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:7:5-79
+14-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.REORDER_TASKS" />
+15-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
+15-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
+16
+17    <application
+17-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:8:5-50:19
+18        android:name="com.example.bookreader.MyApplication"
+18-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:9:9-38
+19        android:allowBackup="true"
+19-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\acer\.gradle\caches\transforms-3\cd8703edc159af06e8bb218e16bc8156\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:11:9-43
+24        android:label="@string/app_name"
+24-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:12:9-41
+25        android:networkSecurityConfig="@xml/network_security_config"
+25-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:13:9-69
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:14:9-54
+27        android:supportsRtl="true"
+27-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:15:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.BookReader" >
+29-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:16:9-48
+30        <activity
+30-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:17:9-20:51
+31            android:name="com.example.bookreader.ReaderActivity"
+31-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:18:13-43
+32            android:exported="false"
+32-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:19:13-37
+33            android:screenOrientation="portrait" />
+33-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:20:13-49
+34        <activity
+34-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:21:9-23:39
+35            android:name="com.bifan.txtreaderlib.ui.HwTxtPlayActivity"
+35-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:22:13-71
+36            android:exported="true"
+36-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:23:13-36
+37            android:theme="@style/HwTxtFullScreen" >
+37-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:20:13-51
+38            <intent-filter>
+38-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:21:13-29:29
+39                <data android:scheme="txt" />
+39-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:22:17-46
+39-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:22:23-43
+40
+41                <action android:name="android.intent.action.VIEW" />
+41-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:24:17-69
+41-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:24:25-66
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:26:17-76
+43-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:26:27-73
+44
+45                <data android:mimeType="text/plain" />
+45-->[com.github.bifan-wei:HwTxtReader:V2.2] C:\Users\acer\.gradle\caches\transforms-3\2a9a2b792e9bb146ceef6d53711c4688\transformed\jetified-HwTxtReader-V2.2\AndroidManifest.xml:22:17-46
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:24:9-26:40
+49            android:name="com.example.bookreader.SearchActivity"
+49-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:25:13-43
+50            android:exported="false" />
+50-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:26:13-37
+51        <activity
+51-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:27:9-30:52
+52            android:name="com.example.bookreader.DetailActivity"
+52-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:28:13-43
+53            android:exported="false"
+53-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:29:13-37
+54            android:screenOrientation="portrait" />
+54-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:30:13-49
+55        <activity
+55-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:31:9-33:40
+56            android:name="com.example.bookreader.SignupActivity"
+56-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:32:13-43
+57            android:exported="false" />
+57-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:33:13-37
+58        <activity
+58-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:34:9-36:40
+59            android:name="com.example.bookreader.MainActivity"
+59-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:35:13-41
+60            android:exported="false" />
+60-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:36:13-37
+61        <activity
+61-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:37:9-39:40
+62            android:name="com.example.bookreader.ChangePasswordActivity"
+62-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:38:13-51
+63            android:exported="false" />
+63-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:39:13-37
+64        <activity
+64-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:40:9-49:20
+65            android:name="com.example.bookreader.LoginActivity"
+65-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:41:13-42
+66            android:exported="true"
+66-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:42:13-36
+67            android:launchMode="singleTask" >
+67-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:43:13-44
+68            <intent-filter>
+68-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:44:13-48:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:17-69
+69-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:47:17-77
+71-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:47:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <service
+75-->[androidx.room:room-runtime:2.4.1] C:\Users\acer\.gradle\caches\transforms-3\109ccd47482a96f7a2959beefc8f68bd\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+76            android:name="androidx.room.MultiInstanceInvalidationService"
+76-->[androidx.room:room-runtime:2.4.1] C:\Users\acer\.gradle\caches\transforms-3\109ccd47482a96f7a2959beefc8f68bd\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
+77            android:directBootAware="true"
+77-->[androidx.room:room-runtime:2.4.1] C:\Users\acer\.gradle\caches\transforms-3\109ccd47482a96f7a2959beefc8f68bd\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+78            android:exported="false" />
+78-->[androidx.room:room-runtime:2.4.1] C:\Users\acer\.gradle\caches\transforms-3\109ccd47482a96f7a2959beefc8f68bd\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+79        <service
+79-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:11:9-20:19
+80            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+80-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:12:13-91
+81            android:directBootAware="true"
+81-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:17:13-43
+82            android:exported="false" >
+82-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:13:13-37
+83            <meta-data
+83-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:14:13-16:85
+84                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar"
+84-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:15:17-126
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:16:17-82
+86            <meta-data
+86-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:17:13-19:85
+87                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.RemoteConfigRegistrar"
+87-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:18:17-114
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.mlkit:translate:16.1.2] C:\Users\acer\.gradle\caches\transforms-3\863153e0005358bb791b8bac30c05fb1\transformed\jetified-translate-16.1.2\AndroidManifest.xml:19:17-82
+89            <meta-data
+89-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:20:13-22:85
+90                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+90-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:21:17-120
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:22:17-82
+92        </service>
+93
+94        <provider
+94-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:9:9-13:38
+95            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+95-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:10:13-78
+96            android:authorities="com.example.bookreader.mlkitinitprovider"
+96-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:11:13-69
+97            android:exported="false"
+97-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:12:13-37
+98            android:initOrder="99" />
+98-->[com.google.mlkit:common:17.1.0] C:\Users\acer\.gradle\caches\transforms-3\589c8b2636223ed33335bf6a6ff1f923\transformed\jetified-common-17.1.0\AndroidManifest.xml:13:13-35
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b23520a02a9d32eebd4c0d596776e903\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b23520a02a9d32eebd4c0d596776e903\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b23520a02a9d32eebd4c0d596776e903\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b23520a02a9d32eebd4c0d596776e903\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b211e86c3193c8fc0c9850e449dee6af\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b211e86c3193c8fc0c9850e449dee6af\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\acer\.gradle\caches\transforms-3\b211e86c3193c8fc0c9850e449dee6af\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+108
+109        <provider
+109-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:26:9-34:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:27:13-67
+111            android:authorities="com.example.bookreader.androidx-startup"
+111-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:28:13-68
+112            android:exported="false" >
+112-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:29:13-37
+113            <meta-data
+113-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:31:13-33:52
+114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+114-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:32:17-85
+115                android:value="androidx.startup" />
+115-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:33:17-49
+116        </provider>
+117
+118        <receiver
+118-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:36:9-45:20
+119            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+119-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:37:13-76
+120            android:directBootAware="false"
+120-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:38:13-44
+121            android:enabled="true"
+121-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:39:13-35
+122            android:exported="true"
+122-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:40:13-36
+123            android:permission="android.permission.DUMP" >
+123-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:41:13-57
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:42:13-44:29
+125                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:43:17-91
+125-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\1478cc7e4c575f0dd8a855ef02759a89\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:43:25-88
+126            </intent-filter>
+127        </receiver>
+128
+129        <service
+129-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\acer\.gradle\caches\transforms-3\023b15f6361c724476d5678ba663c195\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+130            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+130-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\acer\.gradle\caches\transforms-3\023b15f6361c724476d5678ba663c195\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+131            android:exported="false" >
+131-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\acer\.gradle\caches\transforms-3\023b15f6361c724476d5678ba663c195\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+132            <meta-data
+132-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\acer\.gradle\caches\transforms-3\023b15f6361c724476d5678ba663c195\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+133                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+133-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\acer\.gradle\caches\transforms-3\023b15f6361c724476d5678ba663c195\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+134                android:value="cct" />
+134-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\acer\.gradle\caches\transforms-3\023b15f6361c724476d5678ba663c195\transformed\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+135        </service>
+136        <service
+136-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+137            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+137-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+138            android:exported="false"
+138-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+139            android:permission="android.permission.BIND_JOB_SERVICE" >
+139-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+140        </service>
+141
+142        <receiver
+142-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+143            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+143-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+144            android:exported="false" />
+144-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-3\802b8cb66cff5b90585b598e71881718\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+145
+146        <activity
+146-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+147            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+147-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+148            android:exported="true"
+148-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+149            android:theme="@android:style/Theme" >
+149-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+150            <intent-filter>
+150-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+151                <action android:name="android.intent.action.MAIN" />
+151-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:17-69
+151-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:25-66
+152            </intent-filter>
+153        </activity>
+154        <activity
+154-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+155            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+155-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+156            android:exported="true"
+156-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+157            android:theme="@android:style/Theme" >
+157-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+158            <intent-filter>
+158-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+159                <action android:name="android.intent.action.MAIN" />
+159-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:17-69
+159-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:25-66
+160            </intent-filter>
+161        </activity>
+162        <activity
+162-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+163            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+163-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+164            android:exported="true"
+164-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+165            android:theme="@android:style/Theme.Dialog" >
+165-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+166            <intent-filter>
+166-->[androidx.test:core:1.4.0] C:\Users\acer\.gradle\caches\transforms-3\f6c7d2f3df64b1e09ffaf6489b21dfb0\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+167                <action android:name="android.intent.action.MAIN" />
+167-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:17-69
+167-->E:\study\BookReader2\app\src\main\AndroidManifest.xml:45:25-66
+168            </intent-filter>
+169        </activity>
+170    </application>
+171
+172</manifest>
