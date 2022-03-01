@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.west2_test4.Dao.FictionDao">
+<!--    <insert id="insertFiction">-->
+<!--        insert into fictions (id,name,intro,marks,text,picture)-->
+<!--            value (#{id},#{name},#{intro},#{marks},#{text},#{picture})-->
+<!--    </insert>-->
+
+    <select id="selectFiction" resultType="com.example.west2_test4.entity.Fiction">
+        select id id,name name,intro intro,marks marks,text text,picture_path picture_path,writer writer from fictions
+    </select>
+
+    <select id="selectOneFiction" resultType="com.example.west2_test4.entity.Fiction">
+        select id id,name name,intro intro,marks marks,text text,picture_path picture_path,writer writer from fictions where id =#{id}
+    </select>
+
+
+</mapper>
