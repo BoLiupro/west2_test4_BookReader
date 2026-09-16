@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    
+    <!--
+      Supply BOOKREADER_DB_URL, BOOKREADER_DB_USER and BOOKREADER_DB_PASSWORD
+      as MyBatis/JVM properties in your local environment. Do not commit real credentials.
+    -->
     <environments default="mysql">
         <environment id="mysql">
             <transactionManager type="JDBC"></transactionManager>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/west2_users?characterEncoding=utf-8"/>
-                <property name="username" value="root"/>
-                <property name="password" value="66666666"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="${BOOKREADER_DB_URL}"/>
+                <property name="username" value="${BOOKREADER_DB_USER}"/>
+                <property name="password" value="${BOOKREADER_DB_PASSWORD}"/>
             </dataSource>
         </environment>
     </environments>
@@ -18,5 +21,4 @@
         <mapper resource="mappers/UserDao.xml"></mapper>
         <mapper resource="mappers/FictionDao.xml"></mapper>
     </mappers>
-
 </configuration>
